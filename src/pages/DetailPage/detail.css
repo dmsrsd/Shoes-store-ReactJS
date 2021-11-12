@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600&display=swap");
+
+.detail-wrap {
+  display: flex;
+  flex: 2;
+}
+
+.detail-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+
+.detail-image {
+  margin-left: 90px;
+  /* background-color: brown; */
+}
+
+.detail-image2 {
+  display: flex;
+  padding: 10px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+.hover-detail-image:hover {
+  border: 3px solid #000000;
+  box-sizing: border-box;
+}
+
+.gap {
+  margin: 1px;
+}
+
+.detail-left {
+  font-family: "Poppins";
+  display: flex;
+  flex: 1;
+  margin-top: 25px;
+  margin-left: 660px;
+  margin-top: -700px;
+}
+
+.detail-video {
+  margin-top: 30px;
+  margin-left: 660px;
+  cursor: pointer;
+}
+
+.text-play {
+  margin-left: 70px;
+  margin-top: -45px;
+  position: absolute;
+  height: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #131212;
+}
+
+.text-size {
+  position: absolute;
+  width: 144px;
+  height: 27px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  align-items: center;
+  text-transform: uppercase;
+  color: #131212;
+
+  margin-top: -10px;
+}
+
+.desc {
+  margin-top: 20px;
+  width: 488px;
+  height: 60px;
+  left: 700px;
+  top: 309px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.text-category {
+  /* width: 200px; */
+  height: 24px;
+  left: 700px;
+  top: 200px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #131212;
+}
+
+.text-name-shoes {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.detail-size {
+  margin-top: 45px;
+  margin-left: 675px;
+
+  height: 27px;
+  left: 701px;
+  top: 483px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #131212;
+  /* background-color: red; */
+}
+
+.detail-addbag {
+  margin-top: 200px;
+  margin-left: 100px;
+  padding: 30px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.detail-addbag-name {
+  margin-left: 28px;
+  margin-top: -20px;
+
+  position: absolute;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.detail-addbag-right {
+  flex: 1;
+  display: flex;
+  position: absolute;
+  width: 259px;
+  height: 52px;
+  left: 1068px;
+  background: #000000;
+  border-radius: 2px;
+  margin-top: -40px;
+  cursor: pointer;
+}
+
+.detail-addbag-button {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 30px;
+
+  color: #ffffff;
+}
+
+.card-size-detail {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+
+  border: 1px solid #131212;
+  box-sizing: border-box;
+  margin-left: 700px;
+}
+
+.container-size-box {
+  display: flex;
+  margin-left: 660px;
+  margin-top: 10px;
+  cursor: pointer;
+  /* background-color: green; */
+}
+
+.container-color-box {
+  display: flex;
+  margin-left: 660px;
+  margin-top: 10px;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+/* .size-box:hover {
+  background-color: #131212;
+  color: white;
+} */
+
+.size-box {
+  flex: 1;
+  display: flexbox;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+
+  border: 1px solid #131212;
+  box-sizing: border-box;
+  color: #131212;
+  /* background-color: blue; */
+}
+
+.text-inside-box {
+  text-align: center;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 10px;
+}
+
+.color-circle {
+  justify-content: space-between;
+
+  width: 48px;
+  height: 48px;
+  margin: 10px;
+
+  border-radius: 100px;
+}
+
+.color-circle:hover {
+  box-sizing: border-box;
+}
+
+.footer {
+  padding: 10px;
+}

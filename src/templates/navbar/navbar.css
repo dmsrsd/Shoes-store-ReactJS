@@ -1,0 +1,67 @@
+.navCategory {
+  margin-bottom: 90px;
+  /* background-color: red; */
+}
+
+.wrapper {
+  display: flex;
+  flex: 1;
+  margin-bottom: 9px;
+}
+
+.Logo {
+  display: flex;
+
+  margin-left: 110px;
+  margin-top: 8px;
+  margin-bottom: 9px;
+  width: 6%;
+  height: 6%;
+}
+
+.menuNavbar {
+  margin-bottom: 9px;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 308px;
+  color: black;
+}
+
+.hoverUnderline:hover {
+  border-bottom: 2px solid black;
+}
+
+.iconKeranjang {
+  display: flex;
+  flex: 1;
+  margin-bottom: 90px;
+  display: flex;
+  margin-left: 40px;
+}
+
+.icon {
+  margin-bottom: 20px;
+  height: 25px;
+  width: 25px;
+  padding: 23px;
+  cursor: pointer;
+}
+
+.notifikasi {
+  margin-left: 1210px;
+  margin-top: -155px;
+  margin-bottom: 100px;
+}
+
+.icon-notif {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #ff0000;
+}

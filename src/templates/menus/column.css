@@ -1,0 +1,57 @@
+.productCard {
+  /* color: chartreuse; */
+  flex: 1;
+  justify-content: space-between;
+
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  width: 290px;
+
+  left: 100px;
+  top: 345px;
+}
+
+.productCard:hover {
+  background-color: slategrey;
+}
+
+.name:hover {
+  color: skyblue;
+}
+
+.descrip {
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+}
+
+.name {
+  color: #131212;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 18px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.price {
+  flex: 1;
+  display: flex;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+
+.categoryMenu {
+  /* color: rgba(0, 0, 0, 0.7); */
+  font-size: 14px;
+  text-align: left;
+}
+
+.gambar {
+  width: 295px;
+  height: 295px;
+
+  background: #f6f6f6;
+}

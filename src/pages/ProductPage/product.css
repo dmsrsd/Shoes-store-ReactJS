@@ -1,0 +1,39 @@
+.new {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 130px;
+
+  width: 351px;
+  height: 75px;
+  /* left: 544px;
+  top: 177px; */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+
+  color: #131212;
+}
+
+.card-product-list {
+  background-color: #ffffff;
+}
+
+.productLayer {
+  margin-bottom: 100px;
+}
+
+.loading {
+  font-size: 100px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: skyblue;
+}
