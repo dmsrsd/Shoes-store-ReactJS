@@ -96,7 +96,6 @@ class BagPage extends Component {
             <div className="total-price">
               <div className="total-price-name">Total</div>
               <div className="total-price-price">
-                {" "}
                 ${DataFromDetailPage.price}
               </div>
             </div>
