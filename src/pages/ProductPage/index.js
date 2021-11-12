@@ -29,7 +29,7 @@ class ProductPage extends Component {
               <Col>
                 <Row className="card-product-list">
                   {getProductListResult.shoes.map((product) => (
-                    <Menus key={product.index} menu={product} />
+                    <Menus key={product.idx} menu={product} />
                   ))}
                 </Row>
               </Col>

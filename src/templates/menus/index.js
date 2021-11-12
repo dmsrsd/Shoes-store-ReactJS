@@ -28,6 +28,7 @@ const Menus = (product) => {
             <Card.Img
               className="gambar"
               variant="top"
+              key="index"
               src={
                 require(`../../assets/images/` +
                   `${product.menu.name}` +

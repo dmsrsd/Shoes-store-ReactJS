@@ -33,7 +33,11 @@ class BagPage extends Component {
           <div className="bag-product-check">X</div>
           <div>
             <img
-              src={require(`../../assets/images/` + `KD13 EP` + `.png`).default}
+              src={
+                require(`../../assets/images/` +
+                  `${DataFromDetailPage.name}` +
+                  `.png`).default
+              }
               width="150px"
               height="150px"
             />
@@ -45,27 +49,32 @@ class BagPage extends Component {
                 size : {DataFromDetailPage.size}
               </div>
 
-              <div className="deskripsi-color">color : </div>
-              <div className="color-small-box"></div>
+              <div className="deskripsi-color">Color :</div>
+              <div
+                className="color-small-box"
+                style={{ backgroundColor: DataFromDetailPage.color }}
+              ></div>
             </div>
           </div>
         </div>
-        <div className="bag-price">$95.97</div>
+        <div className="bag-price">${DataFromDetailPage.price}</div>
         <div className="bag-quantity">
-          <input
+          {/* <input
             className="bag-quantity-input"
             type="number"
             name="quantity"
             value={quantity}
             onChange={this.setValue}
-          />
+          /> */}
+          1
         </div>
-        <div className="bag-total">$95.97</div>
+        <div className="bag-total">${DataFromDetailPage.price}</div>
       </div>
     );
   };
 
   render() {
+    const { DataFromDetailPage } = this.props;
     return (
       <Container>
         <div className="bag">
@@ -86,7 +95,10 @@ class BagPage extends Component {
           <div className="bag-bottom">
             <div className="total-price">
               <div className="total-price-name">Total</div>
-              <div className="total-price-price">$95.97</div>
+              <div className="total-price-price">
+                {" "}
+                ${DataFromDetailPage.price}
+              </div>
             </div>
           </div>
           <div className="bag-bottom">
